@@ -1,0 +1,82 @@
+body {
+    background-color: aqua;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: red;
+    box-sizing: border-box;
+}
+
+.btn {
+    background-color: inherit;
+    color: inherit;
+    border: none;
+    text-transform: uppercase;
+    text-decoration: inherit;
+    font-size: inherit;
+}
+
+.darkness {
+    background-color: black;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.darkness table tr td:hover {
+    background-color: lightblue;
+}
+
+
+table {
+    margin: 0 0 0 20%;
+    /*Top Right Bottom Left*/
+}
+
+td {
+    padding: 5.0px 100px 10px 20px;
+    /*Top Right Bottom Left*/
+    font-size: xx-large;
+}
+
+td:hover {
+    background-color: greenyellow;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+a:hover{
+    text-decoration: underline;
+    color:blue;
+}
+
+/* Nyongeza */
+.user {
+    box-sizing: border-box;
+    padding: 2%;
+    margin: 2%;
+    border: 1px solid black;
+    align-items: left;
+}
+.user:hover{
+    background-color: greenyellow;
+}
+.user img {
+    display: inline;
+    border: 1px solid black;
+    float: left;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+.user p {
+    display: inline-block;
+}
+
+.user span {
+    float: right;
+    text-align: center;
+    padding-top: 5%;
+    padding-right: 40%;
+    box-sizing: border-box;
+}
